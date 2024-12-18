@@ -1,0 +1,25 @@
+{
+  "name": "token-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/opentelemetry-cloud-trace-exporter": "2.1.0",
+    "@opentelemetry/api": "1.8.0",
+    "@opentelemetry/instrumentation-express": "0.37.0",
+    "@opentelemetry/instrumentation-http": "0.50.0",
+    "@opentelemetry/sdk-trace-base": "1.23.0",
+    "@opentelemetry/sdk-trace-node": "1.23.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-cache": "^5.1.2"
+  }
+}
